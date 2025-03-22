@@ -1,3 +1,4 @@
+```
 ------------------------------ MODULE AgenticReasoningSystem ------------------------------
 EXTENDS Naturals, FiniteSets, Sequences, TLC
 
@@ -267,3 +268,4 @@ ShortestPathsStabilize ==
     <>[](\E pathLength \in REAL : pathLength > 0 /\ pathLength < 10)
 
 ==============================================================================
+```
